@@ -14,3 +14,10 @@
  1700  rm testing.py
  1701  git status
  1702  git restore testing.py
+ 1706  git commit -m 'new txt'
+ 1707  git status
+ 1708  git remote add origin https://github.com/tejeschavan99d/GITHUB-FOR-DEVOPS-WORKSHOP.git
+ 1709  git remote -v
+ 1710  git push origin main
+ 1711  git history
+ 1712  git history
