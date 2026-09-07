@@ -1,0 +1,16 @@
+1687  ls -la
+1688 git status
+ 1689  git add .
+ 1690  git status
+ 1691  git rm --cache
+ 1692  git rm --cache testing.py
+ 1693  git status
+ 1694  git commit -m 'test file'
+ 1695  git status
+ 1696  git add .
+ 1697  git commit -m 'test file'
+ 1698  git add .
+ 1699  git status
+ 1700  rm testing.py
+ 1701  git status
+ 1702  git restore testing.py
